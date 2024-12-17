@@ -52,9 +52,9 @@ background_color_class = "bg-maroon"
 body_classes = "overpass bg-near-white"
 post_content_classes = "overpass"
 
-[ananke.social.follow]
-new_window_icon = false
-networks = ["facebook", "bluesky", "linkedin"]
+# [ananke.social.follow]
+# new_window_icon = false
+# networks = ["linkedin", "youtube", "facebook", "twitter"]
 
 # [[params.ananke_socials]]
 # name = "e-mail"
@@ -62,29 +62,28 @@ networks = ["facebook", "bluesky", "linkedin"]
 
 # [[params.ananke_socials]]
 # name = "linkedin"
-# url = "https://www.linkedin.com/in/jasperstephen/"
-[[ananke.social.linkedin]]
+# url = "https://www.linkedin.com/in/jasperstephen/"z
+[params.ananke.social.linkedin]
 username = 'jasperstephen'
 profilelink = 'https://linkedin.com/in/jasperstephen/'
 
 # [[params.ananke_socials]]
 # name = "youtube"
 # url = "https://www.youtube.com/@TheJetLagGuy"
-[[ananke.social.youtube]]
+[params.ananke.social.youtube]
 profilelink = "https://www.youtube.com/@TheJetLagGuy"
 
 # [[params.ananke_socials]]
 # name = "facebook"
 # url = "https://www.facebook.com/steve.jasper.965/"
-[[ananke.social.facebook]]
+[params.ananke.social.facebook]
 profilelink = "https://www.facebook.com/steve.jasper.965/"
 
 # [[params.ananke_socials]]
 # name = "twitter"
 # url = "https://twitter.com/DrSteveJasper/"
-[[ananke.social.twitter]]
-username = "DrSteveJasper"
-# profilelink = "https://twitter.com/DrSteveJasper/"
+[params.ananke.social.twitter]
+profilelink = "https://twitter.com/DrSteveJasper/"
 
 # [[params.ananke_socials]]
 # name = "X"
@@ -94,11 +93,11 @@ username = "DrSteveJasper"
 
 # instagram?
 
-[[ananke.social.rss]]
-title = "rss"
-profilelink = "/index.xml"
+# [[ananke.social.rss]]
+# title = "rss"
+# profilelink = "/index.xml"
 
-[ananke.social.share]
-icons = true
-sharetext = true
-networks = ["email", "facebook", "bluesky", "linkedin"]
+# [ananke.social.share]
+# icons = true
+# sharetext = true
+# networks = ["email", "facebook", "bluesky", "linkedin"]
