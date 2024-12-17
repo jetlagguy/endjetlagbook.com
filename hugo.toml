@@ -1,12 +1,12 @@
 baseURL = 'https://endjetlagbook.com/'
 languageCode = 'en-au'
 title = 'End Jet Lag'
-theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke/v2"]
 
 DefaultContentLanguage = "en"
 contentDir = "content/en"
 SectionPagesMenu = "main"
-Paginate = 9
+pagination.pagerSize = 9
 # googleAnalytics = ""
 enableRobotsTXT = false
 enableEmoji = true
@@ -16,7 +16,7 @@ enableGitInfo = true
 
 [languages]
 [languages.en]
-title = "Dr Steve Jasper"
+title = "End Jet Lag"
 contentDir = "content/en"
 
 [permalinks]
