@@ -1,0 +1,5 @@
+baseURL = 'https://endjetlagbook.com/'
+languageCode = 'en-au'
+title = 'End Jet Lag'
+
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
