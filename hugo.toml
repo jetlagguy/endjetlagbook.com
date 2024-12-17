@@ -52,9 +52,9 @@ background_color_class = "bg-maroon"
 body_classes = "overpass bg-near-white"
 post_content_classes = "overpass"
 
-# [[params.ananke_socials]]
-# name = "e-mail"
-# url = "mailto:drsteve@jetlagguy.com.au"
+[[params.ananke_socials]]
+name = "e-mail"
+url = "mailto:drsteve@jetlagguy.com.au"
 
 # [[params.ananke_socials]]
 # name = "linkedin"
@@ -76,7 +76,7 @@ post_content_classes = "overpass"
 # name = "X"
 # url = "https://x.com/DrSteveJasper/"
 
-# tiktok
+# tiktok?
 
 # instagram?
 
