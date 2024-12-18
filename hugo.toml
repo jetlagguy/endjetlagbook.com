@@ -67,7 +67,7 @@ profilelink = "mailto:drsteve@jetlagguy.com.au"
 # url = "https://www.linkedin.com/in/jasperstephen/"z
 [[ananke.social.linkedin]]
 username = 'jasperstephen'
-# profilelink = 'https://linkedin.com/in/jasperstephen/'
+profilelink = 'https://linkedin.com/in/jasperstephen/'
 
 # [[params.ananke_socials]]
 # name = "youtube"
@@ -86,7 +86,7 @@ profilelink = "https://www.facebook.com/steve.jasper.965/"
 # url = "https://twitter.com/DrSteveJasper/"
 [[ananke.social.twitter]]
 username = "DrSteveJasper"
-# profilelink = "https://twitter.com/DrSteveJasper/"
+profilelink = "https://twitter.com/DrSteveJasper/"
 
 # [[params.ananke_socials]]
 # name = "X"
