@@ -47,14 +47,14 @@ background_color_class = "bg-maroon"
 body_classes = "overpass bg-near-white"
 post_content_classes = "overpass"
 
-# [ananke.social.share]
-# icons = true
-# sharetext = true
-# networks = ["email", "facebook", "twitter", "linkedin"]
+[ananke.social.share]
+icons = true
+sharetext = true
+networks = ["email", "facebook", "twitter", "linkedin"]
 
 [ananke.social.follow]
 new_window_icon = false
-networks = ["email", "linkedin", "youtube", "facebook", "twitter"]
+networks = ["email", "linkedin", "youtube", "facebook", "twitter", "rss"]
 
 # [[params.ananke_socials]]
 # name = "e-mail"
