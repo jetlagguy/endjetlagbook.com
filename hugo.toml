@@ -56,46 +56,23 @@ networks = ["email", "facebook", "twitter", "linkedin"]
 new_window_icon = false
 networks = ["email", "linkedin", "youtube", "facebook", "twitter", "rss"]
 
-# [[params.ananke_socials]]
-# name = "e-mail"
-# url = "mailto:drsteve@jetlagguy.com.au"
-[[ananke.social.email]]
+[params.ananke.social.email]
 profilelink = "mailto:drsteve@jetlagguy.com.au"
 
-# [[params.ananke_socials]]
-# name = "linkedin"
-# url = "https://www.linkedin.com/in/jasperstephen/"z
-[[ananke.social.linkedin]]
+[params.ananke.social.linkedin]
 username = 'jasperstephen'
 profilelink = 'https://linkedin.com/in/jasperstephen/'
 
-# [[params.ananke_socials]]
-# name = "youtube"
-# url = "https://www.youtube.com/@TheJetLagGuy"
-[[ananke.social.youtube]]
+[params.ananke.social.youtube]
 profilelink = "https://www.youtube.com/@TheJetLagGuy"
 
-# [[params.ananke_socials]]
-# name = "facebook"
-# url = "https://www.facebook.com/steve.jasper.965/"
-[[ananke.social.facebook]]
+[params.ananke.social.facebook]
 profilelink = "https://www.facebook.com/steve.jasper.965/"
 
-# [[params.ananke_socials]]
-# name = "twitter"
-# url = "https://twitter.com/DrSteveJasper/"
-[[ananke.social.twitter]]
+[params.ananke.social.twitter]
 username = "DrSteveJasper"
 profilelink = "https://twitter.com/DrSteveJasper/"
 
-# [[params.ananke_socials]]
-# name = "X"
-# url = "https://x.com/DrSteveJasper/"
-
-# tiktok?
-
-# instagram?
-
-[[ananke.social.rss]]
+[params.ananke.social.rss]
 title = "rss"
 profilelink = "/index.xml"
