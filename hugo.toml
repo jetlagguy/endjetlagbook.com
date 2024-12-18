@@ -19,11 +19,6 @@ enableGitInfo = true
 title = "End Jet Lag"
 contentDir = "content/en"
 
-[permalinks]
-[permalinks.page]
-'blog' = '/blog/:year/:month/:slug/'
-'olympics' = '/olympics/:year/:slug/'
-
 [sitemap]
 changefreq = "weekly"
 priority = 0.5
@@ -52,13 +47,20 @@ background_color_class = "bg-maroon"
 body_classes = "overpass bg-near-white"
 post_content_classes = "overpass"
 
+# [ananke.social.share]
+# icons = true
+# sharetext = true
+# networks = ["email", "facebook", "twitter", "linkedin"]
+
 [ananke.social.follow]
 new_window_icon = false
-networks = ["linkedin", "youtube", "facebook", "twitter"]
+networks = ["email", "linkedin", "youtube", "facebook", "twitter"]
 
 # [[params.ananke_socials]]
 # name = "e-mail"
 # url = "mailto:drsteve@jetlagguy.com.au"
+[[ananke.social.email]]
+profilelink = "mailto:drsteve@jetlagguy.com.au"
 
 # [[params.ananke_socials]]
 # name = "linkedin"
@@ -70,19 +72,20 @@ username = 'jasperstephen'
 # [[params.ananke_socials]]
 # name = "youtube"
 # url = "https://www.youtube.com/@TheJetLagGuy"
-# [params.ananke.social.youtube]
-# profilelink = "https://www.youtube.com/@TheJetLagGuy"
+[[ananke.social.youtube]]
+profilelink = "https://www.youtube.com/@TheJetLagGuy"
 
 # [[params.ananke_socials]]
 # name = "facebook"
 # url = "https://www.facebook.com/steve.jasper.965/"
-# [params.ananke.social.facebook]
-# profilelink = "https://www.facebook.com/steve.jasper.965/"
+[[ananke.social.facebook]]
+profilelink = "https://www.facebook.com/steve.jasper.965/"
 
 # [[params.ananke_socials]]
 # name = "twitter"
 # url = "https://twitter.com/DrSteveJasper/"
-# [params.ananke.social.twitter]
+[[ananke.social.twitter]]
+username = "DrSteveJasper"
 # profilelink = "https://twitter.com/DrSteveJasper/"
 
 # [[params.ananke_socials]]
@@ -93,11 +96,6 @@ username = 'jasperstephen'
 
 # instagram?
 
-# [[ananke.social.rss]]
-# title = "rss"
-# profilelink = "/index.xml"
-
-[ananke.social.share]
-icons = true
-sharetext = true
-networks = ["email", "facebook", "bluesky", "linkedin"]
+[[ananke.social.rss]]
+title = "rss"
+profilelink = "/index.xml"
